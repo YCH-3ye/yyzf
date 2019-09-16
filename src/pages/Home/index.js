@@ -53,7 +53,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div>
+      <div className="home">
         <Switch>
           <Route exact path="/home" component={Index}></Route>
           <Route path="/home/house" component={House}></Route>
